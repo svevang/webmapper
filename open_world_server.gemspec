@@ -14,8 +14,12 @@ Gem::Specification.new do |s|
   s.description = "TODO: Description of OpenWorldServer."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.test_files = Dir["spec/**/*"]
 
   s.add_dependency "rails", "~> 4.0.4"
 
   s.add_development_dependency "pg"
+
+  s.add_development_dependency 'rspec-rails'
+
 end
