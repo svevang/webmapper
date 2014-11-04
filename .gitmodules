@@ -1,0 +1,3 @@
+[submodule "test/open-world-server-test-app"]
+	path = test/open-world-server-test-app
+	url = https://github.com/svevang/open-world-server-test-app.git
