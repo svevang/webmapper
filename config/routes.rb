@@ -1,2 +1,2 @@
-Rails.application.routes.draw do
+OpenWorldServer::Engine.routes.draw do
 end
