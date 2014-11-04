@@ -7,17 +7,19 @@ require "open_world_server/version"
 Gem::Specification.new do |s|
   s.name        = "open_world_server"
   s.version     = OpenWorldServer::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
+  s.authors     = ["Sam Vevang"]
+  s.email       = ["sam.vevang@gmail.com"]
   s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of OpenWorldServer."
-  s.description = "TODO: Description of OpenWorldServer."
-  s.license     = "MIT"
+  s.summary     = "an experiment in geospatial development"
+  s.description = "None"
+  s.license     = "All Rights Reserved"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.1.7"
 
-  s.add_development_dependency "sqlite3"
+  s.add_development_dependency "pg"
+  s.add_development_dependency "rspec-rails"
+
 end
