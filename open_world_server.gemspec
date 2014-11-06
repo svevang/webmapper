@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = OpenWorldServer::VERSION
   s.authors     = ["Sam Vevang"]
   s.email       = ["sam.vevang@gmail.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "https://github.com/svevang/open-world-server"
   s.summary     = "an experiment in geospatial development"
   s.description = "None"
   s.license     = "All Rights Reserved"
