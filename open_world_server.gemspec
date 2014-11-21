@@ -18,9 +18,12 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.1.7"
+  s.add_dependency 'pg'
+  s.add_dependency 'activerecord-postgis-adapter'
 
   s.add_development_dependency "pg"
   s.add_development_dependency 'rspec-rails', '~> 3.1.0'
-  s.add_development_dependency 'factory_girl', '~> 4.5'
+  s.add_development_dependency 'factory_girl_rails'
+  s.add_development_dependency 'pry'
 
 end
