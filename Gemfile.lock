@@ -5,6 +5,7 @@ PATH
       activerecord-postgis-adapter
       pg
       rails (~> 4.1.7)
+      rgeo-geojson
 
 GEM
   remote: https://rubygems.org/
@@ -85,6 +86,8 @@ GEM
     rgeo-activerecord (1.2.0)
       activerecord (~> 4.0)
       rgeo (~> 0.3)
+    rgeo-geojson (0.3.1)
+      rgeo (~> 0.3)
     rspec-core (3.1.7)
       rspec-support (~> 3.1.0)
     rspec-expectations (3.1.2)
@@ -123,6 +126,5 @@ PLATFORMS
 DEPENDENCIES
   factory_girl_rails
   open_world_server!
-  pg
   pry
   rspec-rails (~> 3.1.0)

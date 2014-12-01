@@ -20,8 +20,8 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.1.7"
   s.add_dependency 'pg'
   s.add_dependency 'activerecord-postgis-adapter'
+  s.add_dependency 'rgeo-geojson'
 
-  s.add_development_dependency "pg"
   s.add_development_dependency 'rspec-rails', '~> 3.1.0'
   s.add_development_dependency 'factory_girl_rails'
   s.add_development_dependency 'pry'
