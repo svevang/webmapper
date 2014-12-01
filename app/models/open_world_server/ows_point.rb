@@ -1,13 +1,13 @@
 module OpenWorldServer
   class OwsPoint < ActiveRecord::Base
 
-    def location=(val)
+    def point=(val)
       val = val.deep_stringify_keys if val.class == Hash
-      self[:location] = RGeo::GeoJSON.decode(val).to_s
+      self[:point] = RGeo::GeoJSON.decode(val).to_s
     end
 
-    def location
-      RGeo::GeoJSON.encode(self[:location])
+    def point
+      RGeo::GeoJSON.encode(self[:point])
     end
 
   end
