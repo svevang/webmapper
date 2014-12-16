@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141215172011) do
+ActiveRecord::Schema.define(version: 20141216212444) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -27,8 +27,8 @@ ActiveRecord::Schema.define(version: 20141215172011) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.spatial  "point",          limit: {:srid=>0, :type=>"point"}
-    t.integer  "pointable_id",                                      null: false
-    t.string   "pointable_type",                                    null: false
+    t.integer  "pointable_id"
+    t.string   "pointable_type"
   end
 
 end
